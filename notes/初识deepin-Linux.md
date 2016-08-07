@@ -9,6 +9,7 @@
 sudo apt-get install git curl
  ```
 
+
  *要用超级管理员权限运行  sudo*
 
 #### linux中的常用命令
