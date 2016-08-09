@@ -3,8 +3,11 @@
 - 本地创建 `project` 文件夹
 
 - 进入 `project` 文件夹 `cd project`
+
   1.` git init ` 初始化为git仓库
+
   2.` git status ` 查看仓库当前状态（就是说你对哪些文件做了修改）
+  
   3.`git add -A`   添加所有文件到暂存区
 
     还有`git add .` `git add *` 都是添加所有文件到暂存区（`git add -A` 权限最高会把删除操作都会追踪到git版本中）
