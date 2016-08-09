@@ -3,19 +3,19 @@
 - 本地创建 `project` 文件夹
 
 - 进入 `project` 文件夹 `cd project`
-  1. `git init` 初始化为git仓库
-  2. `git status` 查看仓库当前状态（就是说你对哪些文件做了修改）
-  3. `git add -A`   添加所有文件到暂存区
+  1.` git init ` 初始化为git仓库
+  2.` git status ` 查看仓库当前状态（就是说你对哪些文件做了修改）
+  3.`git add -A`   添加所有文件到暂存区
 
     还有`git add .` `git add *` 都是添加所有文件到暂存区（`git add -A` 权限最高会把删除操作都会追踪到git版本中）
 
-  4. `git commit -m "版本留言" ` 做成一个版本
+  4.`git commit -m "版本留言" ` 做成一个版本
 
-  5. 在github上创建一个与本地仓库同名的空的远端仓库（不勾选readme.md）   复制仓库地址
+  5.在github上创建一个与本地仓库同名的空的远端仓库（不勾选readme.md）   复制仓库地址
 
-  6. `git remote add origin + 仓库地址  ` 将远端的仓库地址添加到版本中  以后push的时候就不用每次都加 网址了。
+  6.`git remote add origin + 仓库地址  ` 将远端的仓库地址添加到版本中  以后push的时候就不用每次都加 网址了。
 
-  7. `git push -u origin master `  将本地master分支推送到远端仓库 与远端的 master 分支对应起来。
+  7.`git push -u origin master `  将本地master分支推送到远端仓库 与远端的 master 分支对应起来。
 
   *如果是从远端克隆下来的仓库  5 6 可省略   在commit 做成版本之后  直接  git push 推送就可以了*
 
