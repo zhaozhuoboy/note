@@ -17,3 +17,12 @@
 利用 nvm 可以在我们的机器上安装多个版本 node ，并且可以进行灵活的切换。下面将 6.2.2 这个 node 版本设置为默认。执行下面语句即可。重启 shell 之后，执行 node -v 可以查看当前的 node 版本。
 
 `nvm alias defaule 6.2.2` 设置默认 node 版本
+
+
+```
+import a from 'a.css';
+function(){
+  alert("aaa");
+}
+
+```
